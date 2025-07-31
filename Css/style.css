@@ -238,6 +238,9 @@ CONTACTO
     .info, .mapa {
         width: 48%;
     }
+    .formulario-contacto button{
+        width: 1%;
+    }
 }
 
 .formulario-contacto {
@@ -267,11 +270,13 @@ CONTACTO
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 20%;
 }
 
 .formulario-contacto button:hover {
     background-color: #2980b9;
 }
+
 
 /* ------------------------------
 RESPONSIVE SLIDE
@@ -317,3 +322,82 @@ RESPONSIVE SLIDE
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+/*//Promociones* index.hmtl//*/
+.promo-instagram {
+    padding: 3rem 1rem;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.promo-instagram-contenido {    
+    display: flex;  
+    flex-wrap: wrap;  
+    align-items: center;  
+    justify-content: center;  
+    gap: 2rem;    
+    max-width: 1200px;  
+    margin: 0 auto;   
+    padding: 1rem;
+    
+}
+
+.instagram-post {
+    width: 100%;
+    max-width: 360px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.promo-info {
+
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.promo-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.promo-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+.promo-info .boton-slide {
+    padding: 0.6rem 1.2rem;
+    background-color: #3b5998;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.promo-info .boton-slide:hover {
+    background-color: #2d4373;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .promo-instagram-contenido {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .instagram-post,
+    .promo-info {
+        max-width: 100%;
+
+    }
+}
+
