@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Catálogo | Oculux Centro Óptico</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../Resources/logo.jpeg" alt="Logo Optica" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="title">Catálogo de lentes</h1>
+<br>
+        <div class="filtros-container">
+            <div class="filtro-genero" id="filtros">
+                <label for="categoria" class="lblfiltro">Filtrar por género</label>
+                <br>
+                <select id="filtro-genero" style="border-radius: 10px; text-align: center;">  
+                    <option value="todas">Todas</option>
+                    <option value="caballero">Caballero</option>
+                    <option value="dama">Dama</option>
+                </select>
+            </div>
+            <div class="filtro-categoria">
+                <label for="categoria" class="lblfiltro">Filtrar por categoria</label>
+                <br>
+                <select id="filtro-categoria" style="border-radius: 10px; text-align: center;">
+                    <option value="todas">Todas</option>
+                    <option value="sol">Sol</option>
+                    <option value="graduado">Graduados</option>
+                    <option value="deportivo">Deportivo</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="contenedor-productos" class="grid-catalogo">
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Oculux Centro Óptico</p>
+    </footer> 
+    <script src="../Js/datos.js"></script>
+    <script src="../Js/productos.js"></script>
+</body>
+</html>

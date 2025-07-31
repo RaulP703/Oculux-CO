@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Contacto | Oculos Centro Óptico</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../Resources/logo.jpeg" alt="Logo Optica" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Templates/productos.html">Productos</a></li>
+                <li><a href="Templates/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <section class="contacto-info">
+            <div class="info">
+                <p><strong>Dirección: </strong><br>Calle Falsa, Saltillo, Coahuila, Mx</p><br>
+                <p><strong>Teléfono: </strong> <br>
+                    <a href="tel:+528443903354" style="color: #000; text-decoration: none;">+52 844 390 3354</a></p><br>
+                <p><strong>Correo: </strong><br>
+                    <a href="mailto:oculuxCO@gmail.com?subject=Oculux%20Centro%20Óptico" style="color: #000; text-decoration: none;">oculusCO@gmail.com</a></p><br>
+                <p><strong>WhatsApp:</strong> <br><a href="https://wa.me/528443903354" target="_blank" style="color: #000; text-decoration: none;">Enviar mensaje</a></p><br>
+            </div>
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2337.159782024235!2d-100.97756340357518!3d25.39165092042666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1753810158961!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                width="100%" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+            </div>
+        </section>
+
+        <section class="formulario-contacto">
+            <h2>¿Tienes dudas o quieres agendas?</h2>
+            <form id="form-contacto">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="correp" placeholder="Tu correo" required>
+                <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="mensaje-envio" style="display: none; color: green">¡Mensaje enviado con exito!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Oculux Centro Óptico</p>
+    </footer>
+    <script src="../Js/app.js"></script>
+</body>
+</html>
