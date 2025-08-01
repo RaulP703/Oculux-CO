@@ -340,6 +340,7 @@ RESPONSIVE SLIDE
     gap: 2rem;    
     max-width: 1200px;  
     margin: 0 auto;   
+
 }
 
 .instagram-post {
@@ -353,7 +354,7 @@ RESPONSIVE SLIDE
     flex-direction: column;
     align-items: center;
     text-align: center ;
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 }
 
 .instagram-post h3{
@@ -395,7 +396,7 @@ RESPONSIVE SLIDE
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 300px) {
     .promo-instagram-contenido {
     flex-direction: column;
     align-items: center;
