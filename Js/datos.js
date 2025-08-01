@@ -5,7 +5,7 @@ const productos = [
         precio: 1250,
         stock: 10,
         categoria: "sol",
-        genero: "caballero",
+        genero: "Caballero",
         descripcion: "Lentes Alejandro modelo clásico.",
         imagen: "../Resources/Caballero/LentesAlejandro.jpg"
     },
@@ -15,7 +15,7 @@ const productos = [
         precio: 1490,
         stock: 5,
         categoria: "graduado",
-        genero: "caballero",
+        genero: "Caballero",
         descripcion: "Ideal para oficina, con filtro de luz azul.",
         imagen: "../Resources/Caballero/LentesJerry.jpg"
     },
@@ -25,7 +25,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "deportivo",
-        genero: "caballero",
+        genero: "Caballero",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Caballero/LentesRicardo.jpg"
     },
@@ -35,7 +35,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "graduado",
-        genero: "caballero",
+        genero: "Caballero",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Caballero/LentesRogelio.jpg"
     },
@@ -45,7 +45,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "sol",
-        genero: "caballero",
+        genero: "Caballero",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Caballero/LentesEsteban.jpg"
     },
@@ -55,7 +55,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "deportivo",
-        genero: "caballero",
+        genero: "Caballero",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Caballero/LentesEddy.jpg"
     },
@@ -65,7 +65,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "graduado",
-        genero: "dama",
+        genero: "Dama",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Dama/LentesCamila.jpg"
     },
@@ -75,7 +75,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "sol",
-        genero: "dama",
+        genero: "Dama",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Dama/LentesYolanda.jpg"
     },
@@ -85,9 +85,9 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "deportivo",
-        genero: "dama",
+        genero: "Dama",
         descripcion: "Ideal para salir a divertirte",
-        imagen: "../Resources/Dama/LentesCamila.jpg"
+        imagen: "../Resources/Dama/LentesMarina.jpg"    
     },
     {
         id: 9,
@@ -95,7 +95,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "graduado",
-        genero: "dama",
+        genero: "Dama",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Dama/LentesRocio.jpg"
     },
@@ -105,7 +105,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "sol",
-        genero: "dama",
+        genero: "Dama",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Dama/LentesBrenda.jpg"
     },
@@ -115,7 +115,7 @@ const productos = [
         precio: 1650,
         stock: 10,
         categoria: "deportivo",
-        genero: "dama",
+        genero: "Dama",
         descripcion: "Ideal para salir a divertirte",
         imagen: "../Resources/Dama/LentesSofia.jpg"
     }

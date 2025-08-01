@@ -14,8 +14,8 @@
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="Templates/productos.html">Productos</a></li>
-                <li><a href="Templates/contacto.html">Contacto</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -44,16 +44,20 @@
         </section>
 
         <section class="formulario-contacto">
-            <h2>¿Tienes dudas o quieres agendas?</h2>
+            <h2>¿Tienes dudas o quieres agendar?</h2>
             <br>
             <form id="form-contacto">
+                <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" placeholder="Tu nombre" required>
-                <input type="email" name="correp" placeholder="Tu correo" required>
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" placeholder="Tu correo" required>
+                <label for="mensaje">Mensaje:</label>
                 <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
                 <button class="boton-contacto" type="submit">Enviar</button>
             </form>
-            <p id="mensaje-envio" style="display: none; color: green">¡Mensaje enviado con exito!</p>
+            <p id="respuesta-formulario" style="display: none; color: #3778A2;"></p>
         </section>
+
     </main>
     <footer>
         <p>&copy; 2025 Oculux Centro Óptico</p>

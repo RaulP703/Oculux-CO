@@ -12,7 +12,7 @@ function renderProductos(lista) {
         <img src="${producto.imagen}" alt="${producto.nombre}">
         <h3>${producto.nombre}</h3>
         <p>$${producto.precio}</p>
-        <button>Agendar</button>
+        <button class="ver-mas-btn" data-id="${producto.id}">Ver más</button>
         `;
 
         contenedor.appendChild(card);
@@ -58,3 +58,24 @@ function filtrarProductos() {
     renderProductos(productosFiltrados);
 }
 
+
+document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("ver-mas-btn")) {
+        const id = e.target.getAttribute("data-id");
+        const producto = productos.find(p => p.id == id);
+
+        // Llenamos los datos del modal
+        document.getElementById("modal-img").src = producto.imagen;
+        document.getElementById("modal-nombre").textContent = producto.nombre;
+        document.getElementById("modal-precio").textContent = `$${producto.precio}`;
+        document.getElementById("modal-categoria").textContent = `Categoría: ${producto.categoria}`;
+        document.getElementById("modal-genero").textContent = `Género: ${producto.genero}`;
+        document.getElementById("modal-descripcion").textContent = producto.descripcion;
+
+        document.getElementById("modal-producto").classList.remove("oculto");
+    }
+});
+
+document.getElementById("cerrar-modal").addEventListener("click", () => {
+    document.getElementById("modal-producto").classList.add("oculto");
+});
