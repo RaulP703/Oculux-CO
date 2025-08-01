@@ -340,8 +340,6 @@ RESPONSIVE SLIDE
     gap: 2rem;    
     max-width: 1200px;  
     margin: 0 auto;   
-    padding: 1rem;
-    
 }
 
 .instagram-post {
@@ -351,8 +349,17 @@ RESPONSIVE SLIDE
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center ;
+    padding-bottom: 1rem;
 }
 
+.instagram-post h3{
+    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+}
 .promo-info {
 
     background-color: #fff;
