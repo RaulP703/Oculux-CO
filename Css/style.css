@@ -382,6 +382,11 @@ RESPONSIVE SLIDE
     color: #555;
     margin-bottom: 1.5rem;
 }
+
+.promo-info img {
+    width: 100%;
+    max-width: 310px;
+}
 .promo-info .boton-slide {
     padding: 0.6rem 1.2rem;
     background-color: #3b5998;
@@ -405,7 +410,6 @@ RESPONSIVE SLIDE
     .instagram-post,
     .promo-info {
         max-width: 100%;
-
     }
 }
 
